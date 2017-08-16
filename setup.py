@@ -13,13 +13,13 @@ __version__ = version_line.split('__version__ = ')[-1][1:][:-2]
 setuptools.setup(
     name='foodutils',
     version=__version__,
-    url='',
+    url='https://github.com/IBarna/utils_project',
 
     author='Mister foo',
     author_email='mister@foo.com',
 
     description='Utils for handling food.',
-    long_description=open('README.rst').read(),
+    long_description=open('README.md').read(),
 
     py_modules=['foodutils'],
     zip_safe=False,

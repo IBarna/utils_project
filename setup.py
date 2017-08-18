@@ -36,4 +36,5 @@ setuptools.setup(
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.7',
     ],
+    dependency_links=['http://irynabarna:Riuriu110603@localhost:8000/pypi/packages'],
 )
